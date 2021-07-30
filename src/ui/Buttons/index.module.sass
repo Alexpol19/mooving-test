@@ -1,0 +1,93 @@
+@import ../../assets/breakpoints.module.scss
+
+$blue: #4466EE
+$white: #fff
+$red: #FF3344
+$black: #27263d
+$gray: #F7F8FA
+
+.btn
+  width: 100%
+  font-weight: 600
+  text-transform: uppercase
+  padding: 16px 32px
+  border-radius: 99px
+  border: none
+  cursor: pointer
+  font-size: 16px
+  line-height: 24px
+  transition: 1s
+  white-space: nowrap
+  background: transparent
+  box-sizing: border-box
+  @media screen and (max-width: $tablet)
+    padding: 8px
+    font-size: 12px
+    line-height: 16.32px
+  &:hover
+    transition: 1s
+
+.mediumBtn
+  padding: 16px!important
+
+.mediumOutlinedBtn
+  padding: 14px!important
+
+.whiteBg
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05)
+  background: $white
+  &:hover
+    background: darken($white, 10%)
+
+.blueBg
+  background: $blue
+  &:hover
+    background: darken($blue, 20%)
+
+.redBg
+  background: $red
+  &:hover
+    background: darken($red, 20%)
+
+.grayBg
+  background: $gray
+  &:hover
+    background: darken($gray, 5%)
+  &:disabled
+    opacity: 0.5
+    &:hover
+      background: $gray
+
+.noShadow
+  box-shadow: none
+
+.whiteColor
+  color: $white
+
+.blackLighterColor
+  color: rgba(39, 38, 61, 0.5)
+  
+.flex 
+  display: flex
+  align-items: center
+.iconSpacing
+  padding-left: 12px
+
+.outlinedGray
+  color: rgba(39, 38, 61, 0.5)
+  background: transparent
+  border: 2px solid rgba(39, 38, 61, 0.5)
+  padding-top: 14px
+  padding-bottom: 14px
+  &:hover
+    border: 2px solid $black
+    color: $black
+
+.rounded
+  width: 56px
+  line-height: 0
+  height: 56px
+  padding: 0
+  @media screen and (max-width: $tablet)
+    width: 48px
+    height: 48px

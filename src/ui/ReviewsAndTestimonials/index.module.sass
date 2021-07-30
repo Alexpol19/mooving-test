@@ -1,0 +1,53 @@
+@import ../../assets/breakpoints.module.scss
+  
+.wrapper 
+  padding-top: 123px
+  padding-bottom: 120px
+  background: #fff
+  @media screen and (max-width: $desktop)
+    padding-top: 84px
+    padding-bottom: 80px
+  @media screen and (max-width: $tablet)
+    padding-top: 32px
+    padding-bottom: 32px
+
+.flexWrapper 
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+
+.btnContainer
+  display: flex
+  padding-left: 32px
+
+.sliderContainer
+  padding-top: 52px
+  @media screen and (max-width: $tablet)
+    padding-top: 24px
+
+.rotate180
+  transform: rotate(180deg)
+
+.btnSpacing
+  padding-left: 16px
+
+.slide
+  @media screen and (min-width: $desktop)
+    width: 592px!important
+    padding-left: 16px
+    padding-right: 16px
+  @media screen and (min-width: $tablet) and (max-width: $desktop)
+    width: 488px!important
+    padding-left: 12px
+    padding-right: 12px
+
+
+.bigMargin
+  margin-left: calc((100% - 1216px - 24px)/2)
+  @media screen and (max-width: $specialDesktop)
+    margin-left: 44px
+  @media screen and (max-width: $tablet)
+    margin-left: 24px
+
+

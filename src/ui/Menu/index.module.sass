@@ -1,0 +1,38 @@
+@import ../../assets/animations.module.scss
+
+.btn
+  border: none
+  cursor: pointer
+  transition: 1s
+  background: transparent
+  outline: none
+
+.menuBtnText
+  font-weight: 600
+  font-size: 12px
+  line-height: 16.32px
+  color: #27263D
+  text-transform: uppercase
+
+.select
+  position: absolute
+  z-index: 1
+  top: 54px
+  left: 0
+  width: 100%
+  background-color: #F7F8FA
+  animation: translateDown 0.3s linear
+  transform: translateY(0)
+  opacity: 1
+  .selectContent
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 32px
+    padding-right: 60px
+
+.translateUp
+  animation: translateUp 0.5s ease
+
+// @media screen and (max-width: $desktop)
+//   padding-left: 48px

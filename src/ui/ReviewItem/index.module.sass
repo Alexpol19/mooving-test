@@ -1,0 +1,66 @@
+@import ../../assets/breakpoints.module.scss
+  
+$black: #27263D
+
+.item
+  border-radius: 12px
+  padding: 48px
+  background-color: #F7F8FA
+  @media screen and (max-width: $tablet)
+    padding: 24px
+    margin-right: 48px
+
+.ratingBox
+  display: flex
+  align-items: center
+
+.rating
+  font-weight: normal
+  font-size: 20px
+  color: $black
+  line-height: 32px
+  @media screen and (max-width: $tablet)
+    font-size: 16px
+    line-height: 24px
+
+.starBox
+  display: flex
+  align-items: center
+  padding-left: 6px
+  
+.spacingHorizontal
+  padding-left: 4px
+  padding-right: 4px
+  line-height: 0
+  @media screen and (max-width: $tablet)
+    padding-right: 1px
+  img
+    @media screen and (max-width: $tablet)
+      width: 13px
+      height: 12.6px
+
+.spacingVertical
+  padding-top: 16px
+  padding-bottom: 32px
+  @media screen and (max-width: $tablet)
+    padding-bottom: 16px
+
+.comment
+  font-weight: normal
+  font-size: 20px
+  color: rgba(39, 38, 61, 0.7)
+  line-height: 32px
+  @media screen and (max-width: $tablet)
+    font-size: 16px
+    line-height: 24px
+
+.titleSpacing
+  padding-bottom: 16px
+  @media screen and (max-width: $tablet)
+    padding-bottom: 12px
+
+.title
+  font-weight: 600
+  font-size: 16px
+  line-height: 24px
+  color: #27263D

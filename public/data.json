@@ -1,0 +1,175 @@
+{
+  "runningText" : ["BE PART OF THE REVOLUTION ON MOOVING", "Selling Company", "Your best property", "Best promotions", "We have opened"],
+  "featuredProperties": [
+    {
+      "id": "0",
+      "label": "POSTED TODAY",
+      "price": 49900,
+      "bedsCount": 1,
+      "bathsCount": 2,
+      "size": "8,380",
+      "address": "50 E 72nd St, New York, NY 10021"
+    },
+    {
+      "id": "1",
+      "label": "POSTED TODAY",
+      "price": 521500,
+      "bedsCount": 2,
+      "bathsCount": 2,
+      "size": "10,380",
+      "address": "197 Noe St, Kihei, HI 96753, USA"
+    },
+    {
+      "id": "2",
+      "price": 234900,
+      "bedsCount": 2,
+      "bathsCount": 1,
+      "size": "9,380",
+      "address": "331 E 71st St, New York, NY 10021"
+    },
+    {
+      "id": "4",
+      "label": "POSTED TODAY",
+      "price": 49900,
+      "bedsCount": 1,
+      "bathsCount": 2,
+      "size": "8,380",
+      "address": "50 E 72nd St, New York, NY 10021"
+    },
+    {
+      "id": "5",
+      "label": "POSTED TODAY",
+      "price": 521500,
+      "bedsCount": 2,
+      "bathsCount": 2,
+      "size": "10,380",
+      "address": "197 Noe St, Kihei, HI 96753, USA"
+    },
+    {
+      "id": "6",
+      "price": 234900,
+      "bedsCount": 2,
+      "bathsCount": 1,
+      "size": "9,380",
+      "address": "331 E 71st St, New York, NY 10021"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "0",
+      "rating": 0,
+      "comment": "Moovikng.uk defies all the stereotypes. Platform is reliable, prompt, helpful, thoughtful and professional. A pleasure to work with and I would highly recommend her. A pleasure to work with and I would highly recommend her. ",
+      "title": "Buyer Closed Feb '21  –  $1.28M",
+      "bedsCount": 1,
+      "bathsCount": 2,
+      "size": "8,380",
+      "address": "50 E 72nd St, New York, NY 10021"
+    },
+    {
+      "id": "1",
+      "rating": 1,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis voluptate veniam nihil dolores dolorum ipsum delectus fugiat velit at?",
+      "title": "Buyer Closed Nov '21  –  $11.28M",
+      "bedsCount": 2,
+      "bathsCount": 2,
+      "size": "10,380",
+      "address": "197 Noe St, Kihei, HI 96753, USA"
+    },
+    {
+      "id": "2",
+      "rating": 5,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere non placeat architecto nulla consequuntur fugit, quaerat nam quibusdam omnis sapiente rerum facilis, eligendi natus atque autem error repudiandae cumque nobis quo molestias iure necessitatibus cupiditate. Laboriosam quis voluptates quia?",
+      "title": "Buyer Closed Feb '26  –  $2.28M",
+      "bedsCount": 2,
+      "bathsCount": 1,
+      "size": "9,380",
+      "address": "331 E 71st St, New York, NY 10021"
+    },
+    {
+      "id": "3",
+      "rating": 4,
+      "comment": "Moovikng.uk defies all the stereotypes. Platform is reliable, prompt, helpful, thoughtful and professional. A pleasure to work with and I would highly recommend her. A pleasure to work with and I would highly recommend her. ",
+      "title": "Buyer Closed Mar '21  –  $3.28M",
+      "bedsCount": 1,
+      "bathsCount": 2,
+      "size": "8,380",
+      "address": "50 E 72nd St, New York, NY 10021"
+    },
+    {
+      "id": "4",
+      "rating": 1,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis voluptate veniam nihil dolores dolorum ipsum delectus fugiat velit at?",
+      "title": "Buyer Closed Yan '21  –  $15.28M",
+      "bedsCount": 2,
+      "bathsCount": 2,
+      "size": "10,380",
+      "address": "197 Noe St, Kihei, HI 96753, USA"
+    },
+    {
+      "id": "9",
+      "rating": 9,
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere non placeat architecto nulla consequuntur fugit, quaerat nam quibusdam omnis sapiente rerum facilis, eligendi natus atque autem error repudiandae cumque nobis quo molestias iure necessitatibus cupiditate. Laboriosam quis voluptates quia?",
+      "title": "Buyer Closed Dec '21  –  $11.28M",
+      "bedsCount": 2,
+      "bathsCount": 1,
+      "size": "9,380",
+      "address": "331 E 71st St, New York, NY 10021"
+    }
+  ],
+  "places": [
+    {
+      "id": "0",
+      "name": "19805",
+      "location": "DE, USA",
+      "addresses": [
+        {
+          "id": "0",
+          "name": "19805 Bellehurst Loop",
+          "location": "DE, USA"
+        },
+        {
+          "id": "2",
+          "name": "19805 Jaclyn Dr",
+          "location": "DE, USA"
+        },
+        {
+          "id": "3",
+          "name": "19805 Bellehurst Loop",
+          "location": "DE, USA"
+        },
+        {
+          "id": "4",
+          "name": "19805 SE 26th Way",
+          "location": "DE, USA"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "60325",
+      "location": "Frankfurt am Main, Germany",
+      "addresses": [
+        {
+          "id": "0",
+          "name": "60325 Westendstraße 48",
+          "location": "Frankfurt am Main, Germany"
+        },
+        {
+          "id": "2",
+          "name": "60325 Savignystraße 63",
+          "location": "Frankfurt am Main, Germany"
+        },
+        {
+          "id": "3",
+          "name": "60325 Lindenstraße 7",
+          "location": "Frankfurt am Main, Germany"
+        },
+        {
+          "id": "4",
+          "name": "60325 Corneliusstraße 3",
+          "location": "Frankfurt am Main, Germany"
+        }
+      ]
+    }
+  ]
+}

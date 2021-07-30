@@ -1,0 +1,33 @@
+@import ../../assets/breakpoints.module.scss
+
+.imageWrapper
+  background-image: url('../../images/main-img.png')
+  background-repeat: no-repeat
+  background-size: cover
+  
+.opacityWrapper
+  background-color: rgba(0, 0, 0, 0.103)
+  padding-top: 160px
+  padding-bottom: 160px
+  @media screen and (max-width: $tablet)
+    padding-top: 209px
+    padding-bottom: 24px
+
+.h1
+  color: #fff
+  @media screen and (max-width: $tablet)
+    font-size: 40px
+    line-height: 48px
+
+.spacing
+  padding-top: 48px
+  @media screen and (max-width: $tablet)
+    padding-top: 128px
+
+.inputWrapper
+  position: relative
+  width: 800px
+  @media screen and (max-width: $desktop)
+    width: 616px
+  @media screen and (max-width: $tablet)
+    width: 100%

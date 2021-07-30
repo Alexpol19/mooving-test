@@ -1,0 +1,53 @@
+$black: #27263D
+
+.wrapper
+  position: absolute
+  z-index: 1
+  top: 96px
+  left: 0
+  border-radius: 40px
+  border: none
+  background: #FFFFFF
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.07)
+  padding: 32px
+  width: 100%
+  box-sizing: border-box
+
+
+.boxTitle
+  font-weight: 600
+  font-size: 16px
+  line-height: 24px
+  text-transform: uppercase
+  color: rgba(39, 38, 61, 0.5)
+
+.boxPlaces
+  padding-top: 16px
+  padding-bottom: 32px
+  margin-bottom: 32px
+  border-bottom: 1px solid rgba(17, 17, 51, 0.15)
+
+.addressItem
+  cursor: pointer
+  &:hover
+    .addressName
+      color: #FF3344
+  &:not(:first-child)
+    margin-top: 24px
+
+.addressName
+  line-height: 32px
+  font-weight: normal
+  font-size: 20px
+  color: $black
+  transition: 0.4s
+
+.location
+  padding-top: 2px
+  line-height: 16.32px
+  font-weight: normal
+  font-size: 12px
+  color: rgba(39, 38, 61, 0.5)
+
+.boxAddresses
+  padding-top: 16px

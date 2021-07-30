@@ -1,0 +1,46 @@
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  margin: 0;
+  color: #27263D;
+}
+
+a,a:hover{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 55.7px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 32.16px;
+  font-weight: 700;
+}
+.swiper-button-prev, .swiper-button-next {
+  display: none!important;
+}
+.notification__item {
+  opacity: 0.8;
+}
+
